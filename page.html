@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"  content="width=device-width, initial-scale=1.0"> 
+	<title>Document</title>
+	<link rel="shortcut icon" href="./assets/images/cat.png" type="image/png">
+	<link href="./assets/styles/normalize.css" rel="stylesheet">
+	<link href="./assets/styles/style.css" rel="stylesheet">
+</head>
+<body>
+	<section class="vertical-flex">
+		<h1>Котики</h1>
+		<div class="carousel">
+			<img class="carousel-item" src="blackcat.jpg" alt="котик">
+		</div>
+		<div>
+			<button onclick="lastImg()">Предыдущая</button>
+			<button onclick="nextImg()">Следующая</button>
+		</div>
+	</section>
+
+	<section class="vertical-flex">
+		<h1>Ещё котики</h1>
+		<div class="horizontal-flex">
+			<div class="vertical-flex">
+				<img onclick="increaseImgBC()" src="blackcat.jpg" alt="котик" class="button">
+				<img onclick="increaseImgBC1()" src="blackcat1.jpg" alt="котик" class="button">
+				<img onclick="increaseImgOC()" src="orangecat.jpg" alt="котик" class="button">
+				<img onclick="increaseImgOC1()" src="orangecat1.jpg" alt="котик" class="button">
+				<img onclick="increaseImgWC()" src="whitecat.jpg" alt="котик" class="button">
+				<img onclick="increaseImgWC1()" src="whitecat1.jpg" alt="котик" class="button">
+			</div>
+			<div class="carousel1">
+				<img class="carousel-item1" src="blackcat.jpg" alt="котик">
+			</div>
+		</div>
+	</section>
+	
+<script src="./assets/styles/script.js" rel="stylesheet"></script>
+</body>
+</html>
